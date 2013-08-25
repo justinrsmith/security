@@ -1,11 +1,11 @@
 #!/bin/bash
 
-line=$(head -n 1 "../t.txt")
+line=$(head -n 1 "filelog.txt")
 #store file name in variable
-A=`(echo $line | cut -d "'" -f 2)`
-echo $A
+filename=`(echo $line | cut -d "'" -f 2)`
+echo $filename
 
 #move file
-scp t.txt justin@10.0.1.39:/home/justin/Desktop
+scp mmal/filename justin@10.0.1.39:/home/justin/Desktop
 
-python mailalert.py
+python3 mailalert.py
