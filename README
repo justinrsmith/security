@@ -1,3 +1,12 @@
 Raspi Security
 
-A simple project to create an alert and view system using a offical Raspberry Pi camera board and the motion package.
+A simple project to create an 'alert and view' system using the
+offical Raspberry Pi camera board and the motion (mmal) package,
+created by Raspberry Pi user 'dozencrows'.
+
+*WARNING* Project makes use of Python3.3
+
+What it does:
+Once new detection is found the movement is recorded to a file. Upon this
+the file is detected then sent off to a central computer for hosting and
+an email is sent to the user alerting them of a new video.
