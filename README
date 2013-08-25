@@ -1,1 +1,3 @@
-Home security
+Raspi Security
+
+A simple project to create an alert and view system using a offical Raspberry Pi camera board and the motion package.
