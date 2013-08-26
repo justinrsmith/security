@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 fromaddr = "justinhomesecure@gmail.com"
 toaddrs = "justinrsmith88@gmail.com"
 username = 'justinhomesecure@gmail.com'
-password = "security2013"
+password = "*"
 
 msg="\r\n".join([
         "From: justinrsmith88@gmail.com",
