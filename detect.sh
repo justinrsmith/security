@@ -6,6 +6,7 @@ filename=`(echo $line | cut -d "'" -f 2)`
 echo $filename
 
 #move file
-scp mmal/filename justin@10.0.1.39:/home/justin/Desktop
+scp ../$filename justin@10.0.1.39:/home/justin/Desktop
 
+#email
 python3 mailalert.py
